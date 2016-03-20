@@ -1,0 +1,92 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+header{
+  background-color:rgba(28, 39, 55, 1);
+  width: 100%;
+  height: 700px;
+  display: inline-block;
+}
+.title{
+  font-size: 60px;
+  font-weight: lighter;
+  text-align: center;
+  color: rgba(169, 177, 191, 1);
+  margin-top: 260px;
+  letter-spacing: 12px;
+}
+.slogan{
+  font-size:12px;
+  color: rgba(169, 177, 191, 1);
+  text-align: center;
+  letter-spacing: 5px;
+}
+.picture-background{
+  background-color:rgba(166, 173, 170, 1);
+  width: 100%;
+  height: 500px;
+}
+.container-pictures{
+  margin-top: 120px;
+}
+.picture-2{
+  display: inline-block;
+  margin-top: 80px;
+}
+
+.menu-background{
+  width: 100%;
+  height: 1600px;
+  background-color:rgba(215, 228, 217, 1);
+}
+
+.menu-title{
+  text-align: center;
+  margin-top: 20px;
+  font-weight:lighter;
+  letter-spacing: 10px;
+}
+
+.menu-items{
+  margin-top: 55px;
+  text-align: center;
+}
+
+h5{
+  font-size: 15px;
+  letter-spacing: 4px;
+  text-transform: capitalize; 
+}
+
+.footer-background{
+  background-color: rgba(69, 75, 73, 1);
+  width: 100%;
+  height: 200px;
+}
+
+.hours{
+  margin-top: 25px;
+  color:rgba(169, 177, 191, 1);
+  letter-spacing: 5px;
+}
+
+.location{
+  margin-top: 25px;
+  color: rgba(169, 177, 191, 1);
+  letter-spacing: 5px;
+  float: right;
+}

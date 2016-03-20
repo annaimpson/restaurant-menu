@@ -1,0 +1,78 @@
+[
+  {
+    "item": "Bahamian Salted Fish Fritters",
+    "description": "Tyger River arugula, Calabrian chili, preserved lemon, fenner",
+    "price": 7,
+    "category": "snacks"
+  },
+
+  {
+    "item": "Regional Cheese",
+    "description": "A selection of three artisan cheeses, house crackers & accompaniments",
+    "price": 18,
+    "category": "snacks"
+  },
+
+  {
+    "item": "Artisan Meat",
+    "description": "Dry cured meats, housemade pickles, beer mustard & toast",
+    "price": 20,
+    "category": "snacks"
+  },
+
+  {
+    "item": "Roasted carrot soup",
+    "description": "chili vinaigrette, creme fraiche, nutmeg",
+    "price": 7,
+    "category": "appetizer"
+  },
+
+  {
+    "item": "Cornbread Panzanella",
+    "description": "Tyger River greens, Split Creek goat feta, root vegetables, fennel, pickled onion, sultanas, jardiniere",
+    "price": 11,
+    "category": "appetizer"
+  },
+
+  {
+    "item": "Border Springs lamb tartare lettuce wraps",
+    "description": "Vietnamese dressing, pheasant egg, cucumber, red onion, harissa yogurt, herb puree, charred onion",
+    "price": 12,
+    "category": "appetizer"
+  },
+
+  {
+    "item": "Walhalla white bass",
+    "description": "field peas, baby carrot, cauliflower, salsa verde, watermelon raddish, brown butter horseradish jus",
+    "price": 28,
+    "category": "entree"
+  },
+
+  {
+    "item": "Alabama Grassfed coulotte",
+    "description": "Split Creek Farms goat yogurs, tomato confit, fingerling potato, marinated onion, preserved lemon, dill, basil, mint, curred lamb vinaigrette, black garlic jus",
+    "price": 33,
+    "category": "entree"
+  },
+
+  {
+    "item": "grilled 25oz hickory nut gap farm boneless ribeye for two",
+    "description": "Sides for the table, Clemson blue maitre d butter, bourbon salt",
+    "price": 85,
+    "category": "entree"
+  },
+
+  {
+    "item": "Custard soaked carrot cake",
+    "description": "Creme fraiche and rosemary ice cream, benne seed",
+    "price": 10,
+    "category": "dessert"
+  },
+
+  {
+    "item": "Dark chocolate espresso pot de creme",
+    "description": "Espresso powder, cocoa nib, chocolate gelee, wanilla foam",
+    "price": 10,
+    "category": "dessert"
+  }
+]
