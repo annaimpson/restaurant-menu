@@ -6,6 +6,8 @@ var models = require('./models/models.js');
 var menu = require('./components/menu-items.json');
 
 var menuInfo = require('./components/index.jsx');
+// var WelcomeRouter = require('./router.js');
+// var welcomeRouter = new WelcomeRouter();
 var Header = menuInfo.Header;
 var Pictures = menuInfo.Pictures;
 var Menu = menuInfo.Menu;
@@ -17,13 +19,10 @@ Backbone.history.start();
 var pretentiousCollection = new models.MenuCollection( menu );
 // pretentiousCollection.fetch();
 
-
-
 ReactDOM.render(
   React.createElement(Header),
   document.getElementById('header')
 );
-
 ReactDOM.render(
   React.createElement(Pictures),
   document.getElementById('container-pictures')

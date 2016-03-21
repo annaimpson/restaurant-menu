@@ -50,16 +50,22 @@ var Menu = React.createClass({
   handleAdd: function(item){
     this.props.addItem(item);
   },
+
+  handleClick: function(item){
+  console.log(item.toJSON());
+  },
   render: function(){
+    // var items = this.props.items;
     var foodItems = this.props.collection.map(function(item){
+      var boundItemClick = this.handleClick.bind(this,item);
       return(
         <div className ="menu-items" key={item.cid}>
-          <h5>{item.get('item')}</h5>
+          <h5>{item.get('item')}<button onClick={boundItemClick} className="glyphicon glyphicon-plus plus-icon" aria-hidden="true"></button></h5>
           <p>{item.get('description')}</p>
           <span>${item.get('price')}</span>
         </div>
         );
-      });
+      }.bind(this));
       console.log(foodItems);
       return(
         <div className="container menu">
@@ -101,7 +107,7 @@ var MenuApp = React.createClass({
     return(
       <div>
         <Pictures />
-        <Menu />
+        <Menu collection={this.props.collection}/>
         <Footer />
       </div>
     )

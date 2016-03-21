@@ -3,18 +3,27 @@ var ReactDOM = require('react-dom');
 var $ = require('jquery');
 var Backbone = require('backbone');
 
-var MainPage = require('./../components/menu-items.jsx');
-var MenuItems = require('../components/menu-items.json');
-var menuCollection = new models.MenuCollection(MenuItems);
+// var Welcome = require('./components/welcome-page.jsx');
+// var MenuPage = require('./components/index.jsx');
+// var MenuItems = require('././components/menu-items.json');
+// var menuCollection = new models.MenuCollection(MenuItems);
 
 
-var Router = Backbone.Router.extend({
-
+var WelcomeRouter = Backbone.Router.extend({
   routes: {
-    '': 'index',
-    'menu': 'menupage'
+    '': 'welcome',
+    'menu': 'menuClick'
+  },
+
+  welcome: function(){
+    ReactDOM.render(
+      React.createElement(Welcome), document.getElementById('app')
+    );
+  },
+
+  menuClick: function(){
+    ReactDOM.render(
+      React.createElement(MenuPage, {collection: menuCollection}), document.getElementById('app')
+    );
   }
 });
-
-module.exports = new Router();
-menuCollection.fetch();
